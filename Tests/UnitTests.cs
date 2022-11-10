@@ -100,7 +100,7 @@ namespace GithubActionsLab
         
         
         [Test]
-        public void Multiply_Null_Pratik_Pande()
+        public void Divide_Null_Pratik_Pande()
         {
             Assert.Throws<ArgumentNullException>(() => Program.Divide("1", null));
             Assert.Throws<ArgumentNullException>(() => Program.Divide(null, "1"));
