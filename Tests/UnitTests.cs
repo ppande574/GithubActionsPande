@@ -47,7 +47,7 @@ namespace GithubActionsLab
             Assert.Throws<FormatException>(() => Program.Subtract("c", "d"));
         }
         
-        Test]
+        [Test]
         public void Subtract_Null_Pratik_Pande()
         {
             Assert.Throws<ArgumentNullException>(() => Program.Subtract("1", null));
